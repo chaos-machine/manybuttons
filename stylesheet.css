@@ -69,6 +69,11 @@
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
+        
+    }
+    [class*="picture"] {
+        width: 300px;
+        height:66px;
     }
     [class*="title"] {
         font-size: 60px;
@@ -79,17 +84,20 @@
     [class*="subtitle"] {
         font-size: 18px;
         text-align: left;
-        width:280px;
-        line-height:28px;
+        width: 280px;
+        line-height: 28px;
     }
     [class*="paragraph"] {
         font-size: 16px;
+        padding-left: 28px;
     }
     [class*="sub-paragraph"] {
         font-size: 16px;
+        padding-left: 28px;
     }
     [class*="date"] {
         font-size: 14px;
+        padding-left: 28px;
     }
     [class*="space-large"] {
         margin-bottom:3em;
