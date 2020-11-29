@@ -8,9 +8,10 @@
     margin-bottom: 3em;
 
 }
+
 .container-fluid {
     max-width:90%;
-}*
+}
 
 .title {
     font-family: 'Oswald', sans-serif;
@@ -61,4 +62,36 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    [class*="title"] {
+        font-size: 60px;
+        text-align:left;
+        line-height:66px;
+        padding-left:16px;
+    }
+    [class*="subtitle"] {
+        font-size: 18px;
+        text-align: left;
+        width:280px;
+        line-height:28px;
+    }
+    [class*="paragraph"] {
+        font-size: 16px;
+    }
+    [class*="sub-paragraph"] {
+        font-size: 16px;
+    }
+    [class*="date"] {
+        font-size: 14px;
+    }
+    [class*="space-large"] {
+        margin-bottom:3em;
+    }
 }
