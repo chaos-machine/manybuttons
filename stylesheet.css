@@ -1,3 +1,64 @@
 ﻿body {
-    background-color:gray;
+    background-color:white;
+}
+.col {
+    max-width: 25%;
+    min-width: 390px;
+    flex: 25%;
+    margin-bottom: 3em;
+
+}
+.container-fluid {
+    max-width:90%;
+}*
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-size:80px;
+    text-align:center;
+    font-weight:700;
+    line-height:80px;
+    margin-top:1em;
+ 
+}
+.subtitle {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0.25em;
+}
+.paragraph {
+    font-size: 15px;
+    text-align:left;
+    font-weight: 500;
+    margin-bottom:0.25em;
+}
+.sub-paragraph {
+    font-size: 15px;
+    text-align: left;
+    font-weight: 400;
+    color: #141621;
+    opacity:0.6;
+    margin-bottom:0.25em;
+}
+.date {
+    font-size: 13px;
+    text-align: left;
+    font-weight: 400;
+    color: #141621;
+    opacity: 0.4;
+}
+
+.space-large {
+    margin-bottom:100px;
+}
+
+.picture {
+    width: 360px;
+    height: 80px;
+    margin-bottom: 1em;
+    border: 1px solid #F2F2F2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
