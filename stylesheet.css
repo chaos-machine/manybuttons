@@ -67,8 +67,8 @@
     margin-bottom: 1em;
     border: 1px solid #F2F2F2;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .row-filter {
